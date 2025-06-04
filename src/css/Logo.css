@@ -1,0 +1,112 @@
+.parent-container {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 105px;
+}
+
+.linkedin-icon {
+  fill: black;
+  width: 20px;
+  height: 20px;
+  transition: fill 0.3s ease;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+.linkedin-icon:hover {
+  fill: #0077b5; 
+}
+
+.instagram-icon {
+  fill: black;
+  width: 20px;
+  height: 20px;
+  transition: fill 0.3s ease;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+.instagram-icon:hover {
+  fill: #E1306C; 
+}
+
+.x-icon {
+  fill: black;
+  width: 20px;
+  height: 20px;
+  transition: fill 0.3s ease;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+.x-icon:hover {
+  fill: #1DA1F2; 
+}
+
+.github-icon {
+  fill: black;
+  width: 20px;
+  height: 20px;
+  transition: fill 0.3s ease;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+.github-icon:hover {
+  fill: #333; 
+}
+
+.custom-hr {
+  position: relative;
+  left: 45%;
+  width: 475px; 
+  transform: translateX(-50%);
+}
+
+.custom-hr hr {
+  margin: 0;
+  height: 1px;
+  background-color: black;
+  border: none;
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .parent-container {
+    width: 80vw; 
+    margin: 0 auto;
+  }
+
+  .icons {
+    justify-content: flex-start; 
+    margin-top: 15px;
+    margin-right: 0;
+    gap: 10px; 
+    margin-left: 65px;
+  }
+
+  .custom-hr {
+    width: 85vw; 
+    left: 55.5%;
+    transform: translateX(-50%);
+  }
+}
