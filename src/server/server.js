@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 console.log("PORT from env:", process.env.PORT);
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`🚀 Sunucu http://localhost:${PORT} adresinde çalışıyor`);
+  console.log(`Sunucu http://localhost:${PORT} adresinde çalışıyor`);
 });
 
 connectDB();
